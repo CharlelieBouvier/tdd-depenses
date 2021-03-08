@@ -32,4 +32,12 @@ public class Total {
                 ", category=" + category +
                 '}';
     }
+
+    public Amount getAmount() {
+        return amount;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
 }

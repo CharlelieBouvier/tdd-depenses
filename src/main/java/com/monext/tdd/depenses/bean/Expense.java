@@ -4,9 +4,9 @@ import java.util.Date;
 import java.util.Objects;
 
 public class Expense {
-    final Date date;
-    final Category category;
-    final Amount amount;
+    private final Date date;
+    private final Category category;
+    private final Amount amount;
 
     public Expense(final Date date, final Category category, final Amount amount) {
         this.date = date;
@@ -33,5 +33,9 @@ public class Expense {
     @Override
     public int hashCode() {
         return Objects.hash(date, category, amount);
+    }
+
+    public Date getDate() {
+        return date;
     }
 }
