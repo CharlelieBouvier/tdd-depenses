@@ -24,4 +24,12 @@ public class Total {
     public int hashCode() {
         return Objects.hash(amount, category);
     }
+
+    @Override
+    public String toString() {
+        return "Total{" +
+                "amount=" + amount +
+                ", category=" + category +
+                '}';
+    }
 }
