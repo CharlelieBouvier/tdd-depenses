@@ -44,3 +44,13 @@ KATA 2
 - Charger un csv dont les categories contiennent des espaces.
 - Charger un csv dont certains montants sont negatifs
 - Charger un csv dont certains montants sont en centime
+
+KATA 3
+
+- Produire un rapport de depenses par categorie + totalité relative des depenses a partir d une liste de totaux.
+- Plusieurs totaux, le grand total doit additionner les totaux.
+
+
+KATA 4
+
+- Lire le fichier sample.csv et afficher un rapport sur le terminal
