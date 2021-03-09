@@ -1,35 +1,46 @@
+
+KATA 1 
+
 Tests :
 
 On test qu'une liste d'enregistrement vide nous renvoie bien rien.
 
-On ajoute une 1ère dépense de la catégorie 1 et on vérifie que ça nous renvoi bien le montant de cette dépense pour cette catégorie.
-On ajoute une 2ème dépense de la catégorie 1 et on vérifie que ça nous renvoi la somme des dépense de cette catégorie.
-On ajoute une 3ème dépense de la catégorie 1 avec un montant négatif qui annule les 2 premières dépenses et on vérifie que ça nous renvoi 0.
-On ajoute une 4ème dépense de la catégorie 1 avec un montant négatif qui et on vérifie que le montant remonté est bien négatif.
+On ajoute une 1ï¿½re dï¿½pense de la catï¿½gorie 1 et on vï¿½rifie que ï¿½a nous renvoi bien le montant de cette dï¿½pense pour cette catï¿½gorie.
+On ajoute une 2ï¿½me dï¿½pense de la catï¿½gorie 1 et on vï¿½rifie que ï¿½a nous renvoi la somme des dï¿½pense de cette catï¿½gorie.
+On ajoute une 3ï¿½me dï¿½pense de la catï¿½gorie 1 avec un montant nï¿½gatif qui annule les 2 premiï¿½res dï¿½penses et on vï¿½rifie que ï¿½a nous renvoi 0.
+On ajoute une 4ï¿½me dï¿½pense de la catï¿½gorie 1 avec un montant nï¿½gatif qui et on vï¿½rifie que le montant remontï¿½ est bien nï¿½gatif.
 
-On ajoute des dépenses de catégorie 2 et on vérifie que les sommes des 2 catégories de dépenses sont bien remontés.
+On ajoute des dï¿½penses de catï¿½gorie 2 et on vï¿½rifie que les sommes des 2 catï¿½gories de dï¿½penses sont bien remontï¿½s.
 
-On teste le résultat pour un mois donnés.
-On teste le résultat pour un mois et une catégories donnés.
+On teste le rï¿½sultat pour un mois donnï¿½s.
+On teste le rï¿½sultat pour un mois et une catï¿½gories donnï¿½s.
 
 
 
 
 Sujet : 
 
-Écrivez un programme qui étant donnée une liste d'enregistrements :
-(Date de Dépense, Catégorie, Montant)
+ï¿½crivez un programme qui ï¿½tant donnï¿½e une liste d'enregistrements :
+(Date de Dï¿½pense, Catï¿½gorie, Montant)
 produit une liste d'enregistrements :
-(Catégorie, Montant)
-représentant le total des dépenses par catégorie.
-(Les montants peuvent être négatifs).
+(Catï¿½gorie, Montant)
+reprï¿½sentant le total des dï¿½penses par catï¿½gorie.
+(Les montants peuvent ï¿½tre nï¿½gatifs).
 
 
-Produire le total des dépenses par catégorie.
-La liste en sortie doit être triée par catégorie.
-S'il n'y a aucune dépense pour une catégorie, cette catégorie ne doit pas être présente dans la liste en sortie.
-Si les montants s'annulent pour une catégorie, cette catégorie doit apparaître avec un montant nul.
-Produire le total des dépenses par catégorie et par mois.
-Produire le total des dépenses pour une catégorie et un mois donné.
-Produire le total des dépenses pour toutes les catégories pour un mois donné.
+Produire le total des dï¿½penses par catï¿½gorie.
+La liste en sortie doit ï¿½tre triï¿½e par catï¿½gorie.
+S'il n'y a aucune dï¿½pense pour une catï¿½gorie, cette catï¿½gorie ne doit pas ï¿½tre prï¿½sente dans la liste en sortie.
+Si les montants s'annulent pour une catï¿½gorie, cette catï¿½gorie doit apparaï¿½tre avec un montant nul.
+Produire le total des dï¿½penses par catï¿½gorie et par mois.
+Produire le total des dï¿½penses pour une catï¿½gorie et un mois donnï¿½.
+Produire le total des dï¿½penses pour toutes les catï¿½gories pour un mois donnï¿½.
 
+
+KATA 2
+
+- Charger un csv vide, renvoie une liste vide 
+- Charger un csv a une ligne, renvoie une liste non vide
+- Charger un csv dont les categories contiennent des espaces.
+- Charger un csv dont certains montants sont negatifs
+- Charger un csv dont certains montants sont en centime
